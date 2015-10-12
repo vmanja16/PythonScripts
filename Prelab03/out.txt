@@ -1,0 +1,68 @@
+ENTER 2016 SPRING COURSES:
+Would you like to take Electronic Devices and Design Laboratory? (Y/N)Added ECE20800
+Would you like to take Electronic Circuit Analysis and Design? (Y/N)Added ECE25500
+Would you like to take Signals and Systems? (Y/N)Added ECE30100
+Would you like to take Probabilistic Methods? (Y/N)Added ECE30200
+Would you like to take ASIC Design Laboratory? (Y/N)Added ECE33700
+Would you like to take Software Engineering Tools Laboratory? (Y/N)Added ECE36400
+Would you like to take Professional Development and Career Guidance? (Y/N)Added ECE40000
+
+
+ENTER 2016 FALL COURSES:
+
+
+Would you like to take Object-Oriented Programming in C++ and Java? (Y/N)Added ECE30862
+Would you like to take Computer Design and Prototyping? (Y/N)Added ECE43700
+Would you like to take Compilers and Translation Engineering? (Y/N)Added ECE46800
+
+
+ENTER 2017 SPRING COURSES:
+
+
+Would you like to take Operating Systems Engineering? (Y/N)Added ECE46900
+Would you like to take Digital Systems Senior Project? (Y/N)
+
+SPRING 2016 COURSES
+***********************************************************************************
+* Course # *		Course Name				Credits           *
+***********************************************************************************
+* ECE20800 *	Electronic Devices and Design Laboratory            * 	1         *
+----------------------------------------------------------------------------------*
+* ECE25500 *	Electronic Circuit Analysis and Design              * 	3         *
+----------------------------------------------------------------------------------*
+* ECE30100 *	Signals and Systems                                 * 	3         *
+----------------------------------------------------------------------------------*
+* ECE30200 *	Probabilistic Methods                               * 	3         *
+----------------------------------------------------------------------------------*
+* ECE33700 *	ASIC Design Laboratory                              * 	2         *
+----------------------------------------------------------------------------------*
+* ECE36400 *	Software Engineering Tools Laboratory               * 	1         *
+----------------------------------------------------------------------------------*
+* ECE40000 *	Professional Development and Career Guidance        * 	1         *
+----------------------------------------------------------------------------------*
+			TOTAL CREDITS					14        *
+***********************************************************************************
+
+
+FALL 2016 COURSES
+***********************************************************************************
+* Course # *		Course Name				Credits           *
+***********************************************************************************
+* ECE30862 *	Object-Oriented Programming in C++ and Java         * 	3         *
+----------------------------------------------------------------------------------*
+* ECE43700 *	Computer Design and Prototyping                     * 	4         *
+----------------------------------------------------------------------------------*
+* ECE46800 *	Compilers and Translation Engineering               * 	4         *
+----------------------------------------------------------------------------------*
+			TOTAL CREDITS					11        *
+***********************************************************************************
+
+
+SPRING 2017 COURSES
+***********************************************************************************
+* Course # *		Course Name				Credits           *
+***********************************************************************************
+* ECE46900 *	Operating Systems Engineering                       * 	4         *
+----------------------------------------------------------------------------------*
+			TOTAL CREDITS					4         *
+***********************************************************************************

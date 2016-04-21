@@ -1,0 +1,13 @@
+#! /bin/bash
+#
+# $Author$
+# $Date$
+# $HeadURL$
+# $Revision$
+
+if (( $# != 0 )); then echo "Usage: ./hangman,bash";exit 1; fi
+
+
+done
+
+

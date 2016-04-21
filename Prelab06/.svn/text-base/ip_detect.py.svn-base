@@ -1,0 +1,43 @@
+import re
+import glob
+import os
+import string
+import sys
+
+pattern = r"(?P<IP>((([2][0-4][\d])|([0-1]?[\d]{1,2})|([2][0-5]{0,2}))\.){3}(([2][0-4][\d])|([0-1]?[\d]{1,2})|([2][0-5]{0,2}))):(?P<port>.+)"
+
+def isValidPort(port):
+    if type(port) == str:
+        port = port.strip()
+        if port.isdigit():
+            if int(port) <= 32767:
+                return True
+    return False
+
+def verifyIP(inFile):
+    with open(inFile, 'r') as file:
+        for line in file.readlines():
+            line = line.strip()
+            match = re.search(pattern, line)
+            if match:  # valid IP
+                matchDict = match.groupdict()
+                port = matchDict["port"]
+                if isValidPort(port):
+                    if int(port) < 1024:
+                        print(line, "- Valid (root priveleges required)")
+                    else:
+                        print(line, "- Valid")
+                else:
+                    print(line, "- Invalid Port Number")
+            else:
+                print(line, "- Invalid IP Address")
+
+if __name__ == "__main__":
+    if len(sys.argv) == 2:
+        fileList = glob.glob(os.path.join(os.getcwd(), sys.argv[1]))
+        inFile = fileList[0]
+        verifyIP(inFile)
+    else:
+        print("Usage: ip_detect.py <filename>")
+
+
